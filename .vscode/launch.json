@@ -10,7 +10,8 @@
             "name": "Launch 2",
             "ip": "10.113.89.121",
             "username": "admin",
-            "password": "extron"
+            "password": "extron",
+            "systeminfo_path": "systeminfo.json"
         }
     ]
 }

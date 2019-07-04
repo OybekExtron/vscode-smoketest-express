@@ -1,55 +1,62 @@
 {
-    "system": {
-        "id": "d3b4b57a-f715-11e8-8eb2-f2801f1b9fd1",
-        "name": "Eng_Rm_3",
-        "system_root_folder_path": "C:/Projects/neat/gscode/Eng_Rm_3",
-        "code_folder_path": "./code",
-        "code_entry_file_path": "src/main.py",
-        "rfile_path": "data",
-        "irfile_path": "irDriver",
-        "playsound_path": "sounds",
-        "type": 1,
-        "user_system_id": "5416",
-        "creation_date": "2019-02-25T05:00:00.000Z",
-        "modified_data": "2019-02-25T05:00:00.000Z",
-        "author": {
-            "name": "jsukhadia",
-            "email": "jsukhadia@extron.com"
+  "system": {
+    "id": "d3b4b57a-f715-11e8-8eb2-f2801f1b9fd1",
+    "name": "Eng_Rm_3",
+    "system_root_folder_path": "C:\\Projects\\NEAT\\cs-vscode\\test\\extron-e2e\\src\\BuildUploadFiles",
+    "code_folder_path": "src",
+    "code_entry_file_path": "src/main.py",
+    "rfile_path": "data",
+    "irfile_path": "irDriver",
+    "playsound_path": "sounds",
+    "type": 1,
+    "user_system_id": "5416",
+    "creation_date": "2019-02-25T05:00:00.000Z",
+    "modified_data": "2019-02-25T05:00:00.000Z",
+    "author": {
+      "name": "jsukhadia",
+      "email": "jsukhadia@extron.com"
+    }
+  },
+  "devices": [
+    {
+      "id": "device1",
+      "name": "IPCP Pro 250 - 10.22.23.2",
+      "is_primary_controller": true,
+      "part_number": "60-1417-01",
+      "alias": "proc",
+      "username": "admin",
+      "password": "extron",
+      "network": [
+        {
+          "address": "10.117.17.225",
+          "type": 0
         }
+      ],
+      "isgvhost": true
     },
-    "devices": [{
-        "id": "device1",
-        "name": "IPCP Pro 350 - 10.113.92.151",
-        "is_primary_controller": true,
-        "part_number": "60-1429-01",
-        "alias": "proc",
-        "username": "admin",
-        "password": "extron",
-        "network": [{
-            "address": "10.113.92.151",
-            "type": 0
-        }],
-        "isgvhost": true
-    }, {
-        "id": "device3",
-        "name": "TLP Pro 725M - 10.113.92.153",
-        "parent_device_id": "device1",
-        "parent_network_type": 0,
-        "is_primary_controller": false,
-        "part_number": "60-1563-02",
-        "alias": "tlp",
-        "username": "admin",
-        "password": "extron",
-        "network": [{
-            "address": "10.113.92.153",
-            "type": 0
-        }],
-        "ui": {
-            "layout_path": "layouts/Trial with 725M.gdl",
-            "enable_click_sound": true,
-            "click_sound_file_path": "sounds/random.wav",
-            "press_feedback": 0
-        },
-        "isgvhost": false
-    }]
+    {
+      "id": "device3",
+      "name": "TLP Pro 725M - 10.22.23.6",
+      "parent_device_id": "device1",
+      "parent_network_type": 0,
+      "is_primary_controller": false,
+      "part_number": "60-1394-02",
+      "alias": "tlp",
+      "username": "admin",
+      "password": "extron",
+      "network": [
+        {
+          "address": "10.117.18.83",
+          "type": 0
+        }
+      ],
+      "ui": {
+        "layout_path": "layouts/Trial with 725M.gdl",
+        "enable_click_sound": true,
+        "click_sound_file_path": "sounds/random.wav",
+        "press_feedback": 0
+      },
+      "isgvhost": false
+    }
+  ]
 }

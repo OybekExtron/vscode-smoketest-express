@@ -8,7 +8,7 @@
             "type": "Extron Debug",
             "request": "launch",
             "name": "Launch 2",
-            "ip": "10.113.92.133",
+            "ip": "10.113.89.121",
             "username": "admin",
             "password": "extron",
             "systeminfo_path": "systeminfo.json"

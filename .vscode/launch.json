@@ -11,7 +11,7 @@
             "ip": "10.113.92.133",
             "username": "admin",
             "password": "extron",
-            "systeminfo_path": "./systeminfo.json"
+            "systeminfo_path": "systeminfo.json"
         }
     ]
 }
